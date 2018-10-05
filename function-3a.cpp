@@ -2,12 +2,12 @@
 //include library
 #include<iostream>
 using namespace std;
-//function
+//define function
 
-					//maximum of two numbers
+					//write the maximum of two numbers
 
 float max(float x, float y){
-					//find maximum
+					//find maximum in between them
 	float z;
 	if (x>y){
 		z=x;	
@@ -24,9 +24,9 @@ return z;
 int main(){
 
 	float a,b;
-	cout <<"kuch bhi do number dal de :"<<endl;
+	cout <<"enter two numbers :"<<endl;
 	cin>>a>>b;
-	cout<<"maximum provide karne ka: "<<max(a,b)<<endl;
+	cout<<"maximum number between these two is : "<<max(a,b)<<endl;
 	
 return 0;
 }
