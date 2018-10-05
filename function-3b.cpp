@@ -2,7 +2,7 @@
 //include library
 #include<iostream>
 using namespace std;
-//function
+//define function
 
 //the function give maximum of two numbers,that should be void
 void max (float x, float y, float &z){
@@ -13,8 +13,8 @@ void max (float x, float y, float &z){
 
 int main(){
 	float a,b,c;
-        //number puchne ka
-	cout << "do koi se bhi number type karde: "<<endl;
+        //ask the number
+	cout << "enter the two number : "<<endl;
 	cin>>a>>b;
 
 //call the function ...because the function in void and take by refrence so when i call the function it call veriable c than in a,b,c  took the value of z and still be veriable.....now if i <<z then..it print z
